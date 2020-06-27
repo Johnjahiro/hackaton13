@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <img
+          src="https://boostifythemes.com/demo/wp/petz/wp-content/themes/petz/images/logo.png"
+          width="180"
+          height="67"
+        />
+        <a id="btnAdd" class="btnAdd" href="#"
+          >Add Pet<img src="./img/icon-add.png" width="30" height="30"
+        /></a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="grid">
+        <!-- <div id="card" class="card">
+          <a id="btnEdit" class="card__edit is-active" href="#"
+            ><img src="./img/icon-edit.png" alt="Edit" width="30"
+          /></a>
+          <a id="btnDelete" class="card__delete is-active" href="#"
+            ><img src="./img/icon-delete.png" alt="Delete" width="30"
+          /></a>
+          <div class="card__content">
+            <img
+              class="card__image"
+              width="150"
+              height="150"
+              src="./img/dog-1.jpg"
+            />
+            <h2 class="card__name">Firulais</h2>
+            <p class="card__tel">986 836 895</p>
+            <p class="card__raza">firulais@hotmail.com</p>
+            <p class="card__pais">Perú</p>
+            <p class="card__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, sed
+              atque minus totam et accusantium optio est autem saepe ea mollitia
+              quibusdam adipisci ipsum molestiae.
+            </p>
+          </div>
+        </div>-->
+      </div>
+    </main>
+    <form id="formPet" class="form" action="">
+      <h3>Agregar Mascota</h3>
+      <div class="form__grid">
+        <div class="name">
+          <input id="name" type="text" placeholder="Nombre" />
+        </div>
+        <div class="lastname">
+          <input id="lastname" type="text" placeholder="Apellido" />
+        </div>
+        <div class="raza">
+          <input id="raza" type="text" placeholder="Raza" />
+        </div>
+        <div class="tel">
+          <input id="tel" type="text" placeholder="Teléfono" />
+        </div>
+        <div class="paises">
+          <select name="paises" id="paises">
+            <option>Seleccionar Pais</option>
+            <option>Peru</option>
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Colombia</option>
+          </select>
+        </div>
+        <div class="foto">
+          <input id="foto" type="text" placeholder="Foto" />
+        </div>
+      </div>
+      <div class="textDescription">
+        <textarea
+          id="txtDescription"
+          cols="30"
+          rows="10"
+          placeholder="Sobre él/ella"
+        ></textarea>
+      </div>
+      <div class="btnModal">
+        <input
+          class="inpAceptar"
+          id="btnAceptar"
+          type="submit"
+          value="Aceptar"
+        />
+        <button id="btnActualizar" class="btnCancelar">Actualizar</button>
+        <button id="btnCancelar" class="btnCancelar">Cancelar</button>        
+      </div>
+    </form>
+    <script src="./js/reto-2.js"></script>
+  </body>
+</html>

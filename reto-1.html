@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu">
+        <a href="reto-1.html">Reto 1</a>
+        <a href="reto-2.html">Reto 2</a>
+      </div>
+    </header>
+    <div class="retos">
+      <section>
+        <h3>Qué es un por que evitar los callsbacks en llamadas asincronas</h3>
+        <p>
+          Se debe evitar los callbacks en llamadas asincronas porque si un
+          callback depende de la anterior, esta irá formando una especie de
+          pirámide, la cual es llamada callback hell, la cual lo hace dificil de
+          leer y mantener si los proyectos sin grandes.
+        </p>
+        <button id="btn1">Ver ejemplo en consola</button>
+      </section>
+      <section>
+        <h3>Qué es una promesa?</h3>
+        <p>
+          Las promesas son usadas para operaciones asíncronas, representa un
+          valor que puede ser de su uso en ese mismo momento, luego o en su
+          defecto, nunca. Esta recibe dos parámetros (completed, reject), cuando
+          se completa la tarea se utiliza un metodo llamado then(), de lo
+          contrario un metodo llamado catch().
+        </p>
+        <button id="btn2">Ver ejemplo en consola</button>
+      </section>
+      <section>
+        <h3>Que es un callback hell?</h3>
+        <p>
+          A mi parecer los callback hell son malas prácticas de codificación.
+          Esta se genera cada vez que se anidan funciones tras otras cada vez
+          que es una de estas dependen del resultado de las otras, lo que va
+          ocacionando una pirámide, esto es llamado callback.
+        </p>
+        <button id="btn3">Ver ejemplo en consola</button>
+      </section>
+    </div>
+    <script src="./js/reto-1.js"></script>
+  </body>
+</html>
